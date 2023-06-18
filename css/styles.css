@@ -44,13 +44,30 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+  
+  
+  
+  
+  .site-nav .link.current {
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #4D5AE5;
+        color: #2E2F42;
+  }
   .site-nav .link:hover,
   .site-nav .link:focus {
      color: var(--accent-color);
   } 
-  .site-nav .link.current {
-     color: var(--accent-color);
-  }
+     
+  
+  
+  
+  
+  
   .email,
   .tel {
      text-decoration: none;
