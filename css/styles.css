@@ -1,0 +1,158 @@
+
+
+:root{
+background-color: white;
+}
+
+body{
+        font-family: "Roboto"sans-serif; 
+        color: #434455;   
+        background-color: #FFFFFF;      
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+      list-style-type: none;
+}
+ 
+/* -------------HEADER--------------- */
+  /* ---------logo-------- */
+
+ .logofirst{
+        color: var(--accent-color);
+        text-decoration: none;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        }
+ .logosecond{
+        color: var(--primary-black-color);
+ }
+
+ /* ---------Site nav-------- */
+
+.site-nav .link {
+    color: var(--text-main-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+     color: var(--accent-color);
+  } 
+  .site-nav .link.current {
+     color: var(--accent-color);
+  }
+  .email,
+  .tel {
+     text-decoration: none;
+     color: var(--description-text-color);
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+  }
+  .email:hover,
+  .email:focus {
+    color: var(--accent-color);
+  }
+  .tel:hover,
+  .tel:focus {
+    color: var(--accent-color);
+  }
+
+
+/* ---------  main -------- */
+.button {
+        cursor: pointer;
+
+}
+.filters {
+        height: 48px;
+        width: 69px;
+        left: 0px;
+        top: 0px;
+        border-radius: 4px;
+        padding: 12px 24px 12px 24px;
+        background: #404BBF;
+        ;
+}
+
+.namecard{     
+
+         font-style: normal;
+         font-weight: 500;
+         font-size: 20px;
+         line-height: 1.2;
+         letter-spacing: 0.02em;
+         color: #2E2F42;
+}
+
+
+.appname{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height:1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+
+   }   
+.footer-text {  
+        
+       
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        background: #F4F4FD;
+}
+               
+.footlogo{
+
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.166;
+        letter-spacing: 0.03em;
+        background-color: #4D5AE5;
+        text-align: left;
+
+}
+
+
+ .effect{
+
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        background: #FFFFFF;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
