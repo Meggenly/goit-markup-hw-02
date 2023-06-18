@@ -46,8 +46,6 @@ body{
   }
   
   
-  
-  
   .site-nav .link.current {
         font-family: Raleway;
         font-size: 18px;
@@ -63,45 +61,48 @@ body{
      color: var(--accent-color);
   } 
      
-  
-  
-  
-  
-  
-  .email,
-  .tel {
+  .adres {
      text-decoration: none;
      color: var(--description-text-color);
      font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
-     letter-spacing: 0.02em;
-  }
-  .email:hover,
-  .email:focus {
-    color: var(--accent-color);
-  }
-  .tel:hover,
-  .tel:focus {
-    color: var(--accent-color);
-  }
+     letter-spacing: 0.02em;  
+  } 
+
+   .adres.link:hover,
+   .adres.link:focus {
+   color: var(--secondary-accent-color);
+   }
 
 
 /* ---------  main -------- */
 .button {
         cursor: pointer;
+        font-family:"Roboto"sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background: #404BBF;
+
 
 }
-.filters {
-        height: 48px;
-        width: 69px;
-        left: 0px;
-        top: 0px;
-        border-radius: 4px;
-        padding: 12px 24px 12px 24px;
-        background: #404BBF;
-        ;
+
+.button-hover
+.button-focus: {
+
+
 }
+.sectionteam:{
+background-color: #F4F4FD;
+}
+.bg{
+        background-color: ;
+}
+        
+        
+
 
 .namecard{     
 
@@ -141,7 +142,7 @@ body{
         line-height: 1.166;
         letter-spacing: 0.03em;
         background-color: #4D5AE5;
-        text-align: left;
+       
 
 }
 
