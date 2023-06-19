@@ -1,15 +1,23 @@
 
 
 :root{
---background-color: white;
-color: var (--background-color--) 
+        --primaryBrand: #4D5AE5;
+        --pressedState: #404BBF;
+        --mainColor: #2E2F42;
+        --successColor: #31D0AA;
+        --textColor: #434455;
+        --subtleText: #8E8F99;
+        --accentColor: #E7E9FC;
+        --lightBg: #F4F4FD;
+        --white: #FFFFFF;
+        --modalBg: #FCFCFC;
+
 }
 
 body{
-        font-family: "Roboto" sans-serif; 
-        accent-color: #434455;   
-        background-color: #FFFFFF; 
-        color: var(--background-color--)   
+        font-family:"Roboto" sans-serif; 
+        color: var(--textColor: #434455);
+        color: var(--background-color--);   
 }
 
 .link{
@@ -18,13 +26,14 @@ body{
 
 .list{
       list-style-type: none;
+      background-color: #FFFFFF;
 }
  
 /* -------------HEADER--------------- */
   /* ---------logo-------- */
 
  .logofirst{
-        color: #4D5AE5;
+        color: var(--primaryBrand:#4D5AE5);
         text-decoration: none;
         font-family: "Raleway" sans-serif;
         font-style: normal;
@@ -32,13 +41,20 @@ body{
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        color: var(--background-color--)
+       
         }
+
+        background: linear-gradient(0deg, #E7E9FC, #E7E9FC),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        
+
+
+
 
 
  .logosecond{
                 text-decoration: none;
-                font-family: "Raleway" sans-serif;
+                font-family:"Raleway" sans-serif;
                 font-style: normal;
                 font-weight: 800;
                 font-size: 18px;
@@ -66,14 +82,14 @@ body{
   
   
   .site-nav .link.current {
-        font-family: Raleway;
+        font-family:"Raleway";
         font-size: 18px;
         font-weight: 800;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
         color: #4D5AE5;
-        color: #2E2F42;
+    
   }
   .site-nav .link:hover,
   .site-nav .link:focus {
@@ -113,8 +129,16 @@ body{
 
 
 }
-.sectionteam:{
+.section-title{
 background-color: #F4F4FD;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: var(----mainColor: #2E2F42;);
+
 }
 .bg{
         background-color: ;
