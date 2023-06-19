@@ -2,12 +2,14 @@
 
 :root{
 background-color: white;
+color: var (--background-color--) 
 }
 
 body{
-        font-family: "Roboto"sans-serif; 
-        color: #434455;   
-        background-color: #FFFFFF;      
+        font-family: "Roboto" sans-serif; 
+        accent-color: #434455;   
+        background-color: #FFFFFF; 
+        color: var(--accent-color--)   
 }
 
 .link{
@@ -22,15 +24,32 @@ body{
   /* ---------logo-------- */
 
  .logofirst{
-        color: var(--accent-color);
+        color: #4D5AE5;
         text-decoration: none;
-        font-family: "Raleway";
+        font-family: "Raleway" sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .logosecond{
         color: var(--primary-black-color);
  }
@@ -136,7 +155,7 @@ background-color: #F4F4FD;
                
 .footlogo{
 
-        font-family: Raleway;
+        font-family:"Raleway" sans-serif;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.166;
