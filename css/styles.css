@@ -17,7 +17,7 @@
 body{
         font-family:"Roboto" sans-serif; 
         color: var(--textColor: #434455);
-        color: var(--background-color--);   
+        color: var(--white: #FFFFFF;);   
 }
 
 .link{
@@ -27,12 +27,6 @@ body{
 .list{
       list-style-type: none;
       background-color: #FFFFFF;
-}
- 
-/* -------------HEADER--------------- */
-  /* ---------logo-------- */
-
- .logofirst{
         color: var(--primaryBrand:#4D5AE5);
         text-decoration: none;
         font-family: "Raleway" sans-serif;
@@ -42,12 +36,19 @@ body{
         line-height: 1.17;
         letter-spacing: 0.03em;
        
+
+
+
+}
+ 
+/* -------------HEADER--------------- */
+  /* ---------logo-------- */
+
+ .logofirst{
+        
         }
 
-        background: linear-gradient(0deg, #E7E9FC, #E7E9FC),
-        linear-gradient(0deg, #FFFFFF, #FFFFFF);
-        
-
+       
 
 
 
@@ -60,7 +61,7 @@ body{
                 font-size: 18px;
                 line-height: 1.17;
                 letter-spacing: 0.03em;
-                color: #2E2F42
+                color: var(--mainColor: #2E2F42;);
  }
 
 .hero-title{
@@ -88,7 +89,7 @@ body{
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
-        color: #4D5AE5;
+        color: var(--mainColor: #2E2F42;);
     
   }
   .site-nav .link:hover,
@@ -137,12 +138,11 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
-color: var(----mainColor: #2E2F42;);
+color: var(--mainColor: #2E2F42;);
+background-color:#FFFFFF;
+}
 
-}
-.bg{
-        background-color: ;
-}
+       
         
         
 
