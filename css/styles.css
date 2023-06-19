@@ -57,7 +57,28 @@ body{
 
 .hero-title{
 
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        text-align: center;
+        background-color: #2E2F42;
+        color: #FFFFFF;
 }
+
+.hero-buttton.link:hover {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: left;
+        color: #ffffff;
+        background: #4D5AE5;
+        cursor: pointer;
+}
+
+
 
 
  /* ---------Site nav-------- */
@@ -112,6 +133,9 @@ body{
         letter-spacing: 0.04em;
 
 }
+
+
+
 
 .section-title{
 background-color: #F4F4FD;
