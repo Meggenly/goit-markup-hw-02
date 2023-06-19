@@ -1,7 +1,7 @@
 
 
 :root{
-background-color: white;
+--background-color: white;
 color: var (--background-color--) 
 }
 
@@ -9,7 +9,7 @@ body{
         font-family: "Roboto" sans-serif; 
         accent-color: #434455;   
         background-color: #FFFFFF; 
-        color: var(--accent-color--)   
+        color: var(--background-color--)   
 }
 
 .link{
@@ -32,6 +32,7 @@ body{
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        color: var(--background-color--)
         }
 
 
@@ -45,6 +46,13 @@ body{
                 letter-spacing: 0.03em;
                 color: #2E2F42
  }
+
+.hero-title{
+
+
+
+}
+
 
  /* ---------Site nav-------- */
 
@@ -95,7 +103,7 @@ body{
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        background: #404BBF;
+    
 
 
 }
