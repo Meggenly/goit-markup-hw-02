@@ -29,7 +29,7 @@ body{
         background-color: #FFFFFF;
         color: var(--primaryBrand:#4D5AE5);
         text-decoration: none;
-        font-family: "Raleway" sans-serif;
+        font-family: "Raleway", sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -42,7 +42,7 @@ body{
   /* ---------logo-------- */
 
  .logofirst-li{
-        font-family: "Raleway" ;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.17;
@@ -140,16 +140,17 @@ color: var(--mainColor: #2E2F42);
      
   .adres {
      text-decoration: none;
-     color: var(--description-text-color);
+     color: var(--mainColor: #2E2F42;);
      font-weight: 400;
      font-size: 16px;
      line-height: 1.5;
-     letter-spacing: 0.02em;  
+     letter-spacing: 0.02em; 
+
   } 
 
    .adres.link:hover,
    .adres.link:focus {
-   color: var(--secondary-accent-color);
+   color: var(--pressedState: #404BBF;);
    }
 
 
