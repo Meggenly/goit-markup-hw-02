@@ -84,6 +84,7 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-style: normal;
+        
 }
 .adres:hover,
 .adres:focus{
@@ -115,6 +116,34 @@ color: var(--textColor: #434455);
         color:#FFFFFF;
         background-color: #4D5AE5;;
 }
+
+
+
+
+.button{   
+        cursor: pointer;
+        font-family:"Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        background-color: #F4F4FD;
+}
+.button:hover,
+.button:focus {    
+        color:#FFFFFF;
+        background-color: #404BBF;       
+}
+
+
+
+
+
+
+
+
+
 
 
 .bgcolorteam{
@@ -176,9 +205,9 @@ background-color:#F4F4FD;
         text-align: center;
         color: var(--mainColor:#2E2F42);
 }
-.bgc{
-        background-color: #FFFFFF;
-}
+
+     
+
 
 .bgcolorteam{
       color: var(--lightBg: #F4F4FD);
