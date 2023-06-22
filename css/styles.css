@@ -72,17 +72,18 @@ body{
 }
 .linkcurrent:hover,
 .linkcurrent:focus{  
-        color: var(-mainColor: #2E2F42;);
+        color: var(--pressedState: #404BBF);
 }
 
 
-.adres {
+.adres{
         font-family: Roboto;
         text-decoration: none;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        font-style: normal;
 }
 .adres:hover,
 .adres:focus{
@@ -173,7 +174,7 @@ background-color:#F4F4FD;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
-        color: var(--mainColor: #2E2F42);
+        color: var(--mainColor:#2E2F42);
 }
 .bgc{
         background-color: #FFFFFF;
