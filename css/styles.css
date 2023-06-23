@@ -16,6 +16,8 @@
 
 body{
         font-family:"Roboto", sans-serif; 
+        color:#434455;
+        background-color: #FFFFFF;
         color: var(--textColor: #434455);
         color: var(--white: #FFFFFF;);   
 }
@@ -88,7 +90,7 @@ body{
 }
 .adres:hover,
 .adres:focus{
-color: var(--textColor: #434455);
+color: var(--textColor);
 }
 
 
@@ -103,18 +105,19 @@ color: var(--textColor: #434455);
 }
 
 .hero-buttton{
-        font-family: "Roboto" sans-serif;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
         text-align: left;
         cursor: pointer;
+        background-color:#4D5AE5;      
+        color:#FFFFFF;
 }
 .hero-buttton:hover,
 .hero-buttton:focus{
-        color:#FFFFFF;
-        background-color: #4D5AE5;;
+        background-color:var(#4D5AE5);
 }
 
 
@@ -127,12 +130,12 @@ color: var(--textColor: #434455);
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        color: #4D5AE5;
-        background-color: #F4F4FD;
+        color:#FFFFFF;
+        background-color:  #4D5AE5; 
 }
 .button:hover,
 .button:focus {    
-        color:#FFFFFF;
+        color:
         background-color: #404BBF;       
 }
 
@@ -160,7 +163,7 @@ background-color:#F4F4FD;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
-        color: var(--mainColor: #2E2F42);
+        color: var(--mainColor);
     
   }
   .site-nav .link:hover,
@@ -195,7 +198,7 @@ background-color:#F4F4FD;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
-        color: var(--mainColor:);
+        color: var(--mainColor);
 }
 
      
