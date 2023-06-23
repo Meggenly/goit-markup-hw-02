@@ -84,7 +84,7 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-style: normal;
-        
+        color:#404BBF;
 }
 .adres:hover,
 .adres:focus{
@@ -135,14 +135,6 @@ color: var(--textColor: #434455);
         color:#FFFFFF;
         background-color: #404BBF;       
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -203,7 +195,7 @@ background-color:#F4F4FD;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         text-align: center;
-        color: var(--mainColor:#2E2F42);
+        color: var(--mainColor:);
 }
 
      
