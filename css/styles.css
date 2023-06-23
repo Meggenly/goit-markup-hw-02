@@ -117,7 +117,8 @@ color: var(--textColor);
 }
 .hero-buttton:hover,
 .hero-buttton:focus{
-        background-color:var(#4D5AE5);
+        background-color: #404BBF;
+        color:#FFFFFF;
 }
 
 
@@ -130,13 +131,14 @@ color: var(--textColor);
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        background-color:#4D5AE5
         color:#FFFFFF;
-        background-color:  #4D5AE5; 
+       
 }
 .button:hover,
 .button:focus {    
-        color:
-        background-color: #404BBF;       
+        color:#FFFFFF;
+        background-color: #404BBF;            
 }
 
 
