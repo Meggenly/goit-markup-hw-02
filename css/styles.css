@@ -19,7 +19,7 @@ body{
         color:#434455;
         background-color: #FFFFFF;
         color: var(--textColor: #434455);
-        color: var(--white: #FFFFFF;);   
+         
 }
 
 .link{
@@ -82,7 +82,7 @@ font-style: normal;
 }
 
 .adres{
-        font-family: "Roboto", san-serif;
+      
         text-decoration: none;
         font-weight: 400;
         font-size: 16px;
